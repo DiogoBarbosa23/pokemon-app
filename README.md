@@ -61,39 +61,53 @@ Após instalar o Node.js, execute no terminal:
 ```bash
 npm install -g expo-cli
 
- 2. Baixar o projeto
+ ## 2. Baixar o projeto
 
 Você pode escolher uma das opções abaixo:
 
-🔹 Opção A — Baixar ZIP
+### 🔹 Opção A — Baixar ZIP
+1. Abra o repositório no GitHub  
+2. Clique em **Code**  
+3. Escolha **Download ZIP**  
+4. Extraia o arquivo  
+5. Abra a pasta no VS Code  
 
-Abra o repositório no GitHub
-
-Clique em Code
-
-Escolha Download ZIP
-
-Extraia o arquivo
-
-Abra a pasta no VS Code
-
-🔹 Opção B — Clonar com Git
-
+### 🔹 Opção B — Clonar com Git
 Se tiver Git instalado, execute:
 
+```bash
 git clone https://github.com/DiogoBarbosa23/pokemon-app.git
+```
 
 Depois entre na pasta:
 
+```bash
 cd pokemon-app
+```
 
-3. Instalar dependências
+---
+
+## 3. Instalar dependências
 
 Com o terminal aberto dentro da pasta do projeto, execute:
 
+```bash
 npm install
+```
 
-4. Rodar o projeto
+---
+
+## 4. Rodar o projeto
+
+Para iniciar a aplicação, execute:
+
+```bash
+npm start
+```
+
+Para rodar no navegador:  
+No terminal/Expo, pressione **"w"**
+
 
 Para iniciar a aplicação, execute:
 
